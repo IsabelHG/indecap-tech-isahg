@@ -1,0 +1,949 @@
+/**
+* Template Name: eStartup - v4.6.0
+* Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/** GENERAL **/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+@media (max-width:767px) {
+    .col-4, .col-7{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:1023px) {
+    #animacion .col-4{
+        width: 50%;
+    }
+}
+
+/** FONTS **/
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Raleway-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/Raleway-Italic.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/Raleway-Black.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Raleway-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Raleway-Medium.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/Raleway-SemiBoldItalic.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/Raleway-MediumItalic.ttf') format('opentype');
+}
+
+/** HEADER **/
+
+.header{
+    background-color: #1D098F;
+    position: fixed;
+    width: 100%;
+    padding-left: 25px;
+    z-index: 997;
+    min-height: 115px;
+}
+
+.header img{
+    height: 115px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .header img{
+        width:90%;
+        height: auto;
+        max-width: 341px;
+    }
+}
+
+/** REDES SOCIALES **/
+
+.social-media{
+    bottom: 25px;
+    text-align: center;
+    position: fixed;
+    z-index: 998;
+}
+
+.social-media > a{
+    margin: 10px 0;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.facebook{
+    background: #337FFF;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.instagram{
+    background: #B6099A;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.twitter{
+    background: #28A9F1;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.whatsapp{
+    background: #19C62A;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+    .social-media{
+        display: none;
+    }
+}
+
+/** PRINCIPAL **/
+
+.principal{
+    padding-top: 115px;
+}
+
+/** VIDEO **/
+
+.video{
+    position: relative;
+    padding-right: 35px;
+}
+
+.video video{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .video video{
+        padding: 20px 2px;
+    }
+    .principal .col-6{
+        width: 100%;
+    }
+    .video{
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+    .principal .col-6{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .video{
+        padding: 0;
+    }
+}
+
+.play{
+    border: none;
+    opacity: 50%;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+/** TEXT AND TITLES **/
+
+.title{
+    font-size: 36px;
+    line-height: 40px;
+    color: #1D098F;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.title span {
+    color: #000;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.subtitle{
+    font-size: 24px;
+    line-height: 28,18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.text{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.title2{
+    font-size: 36px;
+    color: #1D098F;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subtitle2{
+    font-size: 36px;
+    color: #000;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+}
+
+.title-italic{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.title-black{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.welcome-msg{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-perfil{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 50px;
+}
+
+.title-perfil span{
+    font-weight: 900;
+    font-style: normal;
+    color: #05006C;
+}
+
+.subtitle-perfil{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1D098F;
+}
+
+.text-perfil{
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/** PADDING/MARGIN **/
+
+.pad-50{
+    padding: 50px 0;
+}
+
+.padtop-20{
+    padding-top: 20px;
+}
+
+.padsid-75{
+    padding: 0 75px;
+}
+
+/** FORMS **/
+
+.form-bg-color{
+    background-color: #FFF;
+}
+
+.formulario input, .form-select {
+    background-color:#E5E5E5;
+    border: none;
+    border-radius: 0;
+    height: 50.43px;
+    margin: 10px 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.terminos{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.enviar{
+    background-color: #2C6CE2;
+    width: 188px;
+    text-align: center;
+}
+
+.enviar button{
+    color: #FFF;
+}
+
+.form-bg-color{
+    padding: 20px;
+}
+
+@media (min-width:768px) and (max-width:900px) {
+    .principal .col-4{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .principal .col-4 > div{
+        width: 60%;
+    }
+}
+
+/** ARROWS **/
+
+.flechas{
+    color: #1D098F;
+    text-align: center;
+    margin:50px 0;
+}
+
+.flechas svg:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+
+#arrow-up{
+    position: fixed;
+    bottom: 25px;
+    background-color: #1D098F;
+    color: #FFF;
+    z-index: 1;
+    padding: 2px;
+    border-radius: 10px;
+    right: 0;
+    visibility: hidden;
+}
+
+#arrow-up svg{
+    cursor: pointer;
+}
+
+#arrow-up:hover{
+    opacity: 75%;
+}
+
+/** PROGRAMS **/
+
+.programs{
+    background-color: #ECF0F8;
+    padding: 50px 0;
+}
+
+.seccion{
+    padding: 0 0 25px 0;
+}
+
+.course-hidden{
+    visibility: hidden;
+}
+
+.programs-section .col > div{
+    position: relative;
+    height: 273px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.programs-description{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    height: 64px;
+    transition: height 1s;
+}
+
+.programs-section .col:first-child > div:hover .programs-description{
+    height: 156px;
+}
+
+.programs-section .col:nth-child(2) > div:hover .programs-description{
+    height: 156px;
+}
+
+.programs-section .col:nth-child(3) > div:hover .programs-description{
+    height: 156px;
+}
+
+.programs-section .col:nth-child(4) > div:hover .programs-description{
+    height: 156px;
+}
+
+.programs-section .col:nth-child(5) > div:hover .programs-description{
+    height: 156px;
+}
+
+.programs-description div:first-child{
+    height: 64px;
+    background-color: #2C6CE2;
+    width: 100%;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.col:nth-child(2) .programs-description div:first-child{
+    background-color: #E2A42C;
+}
+
+.col:nth-child(3) .programs-description div:first-child{
+    background-color: #19C62A;
+}
+
+.col:nth-child(4) .programs-description div:first-child{
+    background-color: #E22C78;
+}
+
+.col:nth-child(5) .programs-description div:first-child{
+    background-color: #9D09B6;
+}
+
+.programs-description div:first-child span{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.programs-description div:last-child{
+    background-color: #FFFFFF;
+    height: 92px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;  
+    line-height: 16px;
+}
+
+@media (max-width: 400px) {
+    .programs-section .col img{
+        max-width: 100%;
+        object-fit: cover;
+        height: 207px;
+    }
+}
+
+@media (max-width:775px) {
+    .course-hidden{
+        display: none;
+    }
+    .programs-section .col:first-child > div .programs-description{
+        height: 156px;
+    }
+    
+    .programs-section .col:nth-child(2) > div .programs-description{
+        height: 156px;
+    }
+    
+    .programs-section .col:nth-child(3) > div .programs-description{
+        height: 156px;
+    }
+    
+    .programs-section .col:nth-child(4) > div .programs-description{
+        height: 156px;
+    }
+    
+    .programs-section .col:nth-child(5) > div .programs-description{
+        height: 156px;
+    }
+}
+
+/** COURSES **/
+
+.courses-section img{
+    width: 300px;
+}
+
+.courses-section .col{
+    max-width: 300px;
+    height: 183px;
+}
+
+.courses-section .col p{
+    height: 63px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.course-yellow{
+    background-color: #E2A42C;
+}
+
+.course-blue{
+    background-color: #2C6CE2;
+}
+
+/** BANNER AULA **/
+
+.banner-aula{
+    background-color: #1D098F;
+    height: 305px;
+    background: url('../img/banner-aula.png') left bottom no-repeat, #1D098F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-aula button{
+    background-color: #2C6CE2;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;  
+    width: 188.34px;
+    height: 52.49px;
+    font-size: 18px;
+    position: absolute;
+    right: 100px;
+}
+
+.banner-aula button:hover{
+    color: #1D098F;
+}
+
+@media (max-width: 767px) {
+    .banner-aula img{
+        width: 90%;
+        margin: 20px 5%;
+    }
+    .banner-aula{
+        background-size: contain;
+        display: block;
+        text-align: right;
+    }
+    .banner-aula button{
+        position: static;
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        margin: 0 5%;
+    }
+}
+
+@media (min-width:533px) and (max-width:1200px){
+    .banner-aula img{
+        width: 60%;
+        margin: 20px 5%;
+    }
+    .banner-aula{
+        display: block;
+        text-align: right;
+    }
+    .banner-aula button{
+        position: static;
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        margin: 0 5% 0 50%;
+    }
+}
+
+/** BANNERS **/
+
+.banner-desarrollo{
+    background-image: url('../img/banner-desarrollo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.banner-telecomunicaciones{
+    background-image: url('../img/banner-telecomunicaciones.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.banner-ciberseguridad{
+    background-image: url('../img/banner-ciberseguridad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.banner-marketing{
+    background-image: url('../img/banner-marketing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.banner-animacion{
+    background-image: url('../img/banner-animacion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.principal > .banner-desarrollo,
+.principal > .banner-telecomunicaciones,
+.principal > .banner-ciberseguridad,
+.principal > .banner-marketing,
+.principal > .banner-animacion {
+    background-size: cover;
+}
+
+.banner-desarrollo > .banner-desarrollo,
+.banner-telecomunicaciones > .banner-telecomunicaciones,
+.banner-ciberseguridad > .banner-ciberseguridad,
+.banner-marketing > .banner-marketing,
+.banner-animacion > .banner-animacion {
+    background-size: 0%;
+}
+
+@media (max-width: 767px) {
+    .principal > .banner-desarrollo,
+    .principal > .banner-telecomunicaciones,
+    .principal > .banner-ciberseguridad,
+    .principal > .banner-marketing,
+    .principal > .banner-animacion {
+        background-size: 0%;
+        padding: 0;
+    }
+    .banner-desarrollo > .banner-desarrollo,
+    .banner-telecomunicaciones > .banner-telecomunicaciones,
+    .banner-ciberseguridad > .banner-ciberseguridad,
+    .banner-marketing > .banner-marketing,
+    .banner-animacion > .banner-animacion {
+        background-size: cover;
+    }
+}
+
+/** SUB MENU **/
+
+.sub-menu{
+    height: 121px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+.sub-menu button{
+    height: 100%;
+    width: 33%;
+    border: none;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sub-menu button:hover {
+    background-color: #2C6CE2;
+    color: #FFF;
+}
+
+@media (max-width:767px) {
+    .sub-menu{
+        display: none;
+    }
+}
+
+/** PROGRAM DESCRIPTION **/
+
+.title-description{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1D098F;
+    text-align: center;
+}
+
+.text-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 20px 20% 0 20%;
+}
+
+@media (max-width:767px) {
+    .text-description{
+        padding: 20px 20px 0 20px;
+    }
+}
+
+/** BENEFITS **/
+
+.benefits{
+    background-color: #2C6CE2;
+    text-align: center;
+}
+
+.circles svg{
+    margin: 0 5px;
+}
+
+.benefits p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.benefits span{
+    font-style: normal;
+    font-weight: 500;
+}
+
+/** BENEFITS CAROUSEL **/
+
+.carousel{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .carousel{
+        display: block;
+    }
+    .no-carousel{
+        display: none;
+    }
+}
+
+/** PERFIL **/
+
+.img-perfil{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 550px;
+}
+
+.perfil .col-6{
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .perfil .col-6{
+        width: 100%;
+    }
+
+    .perfil .row:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .padsid-75{
+        padding: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+    .padsid-75{
+        padding: 25px;
+    }
+}
+
+/** PLAN ESTUDIOS **/
+
+.plan-estudios{
+    background-color: #2C6CE2;
+    color: #FFFFFF;
+    height: 230px;
+}
+
+.plan-estudios p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 42px;
+}
+
+.plan-estudios span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.plan-estudios a{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.plan-estudios a:hover{
+    color: #1D098F;
+}
+
+@media (max-width:767px) {
+    .plan-estudios p{
+        font-size: 42px;
+    }
+    
+    .plan-estudios span{
+        font-size: 18px;
+    }
+    .plan-estudios{
+        text-align: center;
+    }
+}
+
+/** NUESTROS PROGRAMAS 
+
+.contenedor{
+    position: relative;
+    background: #F3F3F3;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    width: 100%;
+    height: 246px;
+    cursor: pointer;
+}
+
+.contenedor img{
+    width: 100%;
+    height: 168px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#animacion .row .col-4{
+    padding: 25px;
+}
+
+.no{
+    visibility: hidden;
+}
+
+@media (max-width:1023px) {
+    .no{
+        display: none;
+    }
+}
+
+#animacion{
+    background-color: #E2E0E0;
+    transition: all 0.5s ease-in-out 0s;
+} 
+
+.contenedor div{
+    position: absolute;
+    width: 100%;
+}
+
+.contenedor div p{
+    padding: 3px 15px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.contenedor div .name-programa{
+    font-style: normal;
+    font-weight: 900;
+    color: #1D098F;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@media (max-width: 1155px) {
+    .contenedor div .name-programa{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .contenedor div p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.contenedor:hover img{
+    filter: grayscale(0) !important;
+}
+
+.programas:hover .contenedor img {
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: .3s;      
+}
+
+.programas:hover .col-4:not(:last-child):hover:not(:last-child) {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.programas .col-4:not(:last-child) {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+} **/
