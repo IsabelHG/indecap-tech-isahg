@@ -1,5 +1,6 @@
 <?php
 
+require_once("Connection.php");
 class Adddata extends Connection{
 
 
@@ -14,25 +15,28 @@ class Adddata extends Connection{
         return true;
     }
 
-    public function insertar($datos){
-        $sql = 'INSERT INTO form (name,email,phone,typedoc,numdoc,program)
-        values (:name,:email,:phone,:typedoc,:numdoc,:program)';
+    public function insertar(){
+        $sql = 'INSERT INTO form (name,email,phone,typedoc,program)
+        values (?,?,?,?,?)';
 
         $query = $this->connect();
-        $query->beginTransaction();
+        $query->begin_Transaction();
 
         try{
+            
+            $name=$_POST['name'];
+            $email=$_POST['email'];
+            $phone=$_POST['phone'];
+            $typedoc=$_POST['typedoc'];
+            $program=$_POST['program'];
+
             $result = $query->prepare($sql);
-            $result->execute(['name'=>$datos['name'],
-                              'email'=>$datos['email'],
-                              'phone'=>$datos['phone'],
-                              'typedoc'=>$datos['typedoc'],
-                              'numdoc'=>$datos['numdoc'],
-                              'program'=>$datos['program']]);
+            $result -> bind_param('ssiss', $name,$email,$phone,$typedoc,$program);
+            $result->execute();
 
             $query->commit();
 
-            return true;
+            return "Datos agregados";
         }catch (PDOException $e) {
             throw new \PDOException($e->getMessage(), (int)$e->getCode());
             print_r("Error connection: ". $e->getMessage());
@@ -40,29 +44,19 @@ class Adddata extends Connection{
         }
     }
     
-    function getForm()
-    {
-        if (isset($_POST['name'],$_POST['email'],$_POST['phone'],$_POST['typedoc'],$_POST['numdoc'],$_POST['program'])) {
+    function getForm(){
+       
             $name=$_POST['name'];
             $email=$_POST['email'];
             $phone=$_POST['phone'];
             $typedoc=$_POST['typedoc'];
-            $numdoc=$_POST['numdoc'];
             $program=$_POST['program'];
 
-            $datos = array('name'=>$name,'email'=>$email,'phone'=>$phone,'typedoc'=>$typedoc,'numdoc'=>$numdoc,'program'=>$program);
+            $datos = array('name'=>$name,'email'=>$email,'phone'=>$phone,'typedoc'=>$typedoc,'program'=>$program);
 
-            if ($this->mempty($datos)) {
-                $this->insertar($datos);
-            
-            }else {
-                echo '<div class="alert alert-danger" role="alert">Ocurrió un error, por favor intenta otra vez</div>';
-            }
-            
-        }
-    }
-
+           return $datos;
+}
 }
 
-$test = new Adddata;
-$test->getForm();
+$test = new Adddata();
+echo $test->insertar();

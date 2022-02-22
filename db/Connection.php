@@ -13,8 +13,7 @@ function connect() {
     $this->pass="";
     $this->server="localhost";
     $this->db="indecap_tech";
-    $con=mysql_connect($sever,$user,$pass) or die ("Error al conectar a la db".mysql_error());
-    mysql_select_db($db,$con);
+    $con= new mysqli($this->server,$this->user,$this->pass,$this->db);
 
     return $con;
 
