@@ -90,12 +90,12 @@ p{
     width: 100%;
     padding-left: 25px;
     z-index: 997;
-    min-height: 115px;
+    min-height: 80px;
 }
 
 .header img{
-    height: 115px;
-    padding: 20px 0;
+    height: 80px;
+    padding: 10px 0;
     cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ p{
 
 .facebook{
     background: #337FFF;
-    padding-top: 10px;
+    padding: 5px 0;
     border-radius: 5px;
 }
 
@@ -156,7 +156,60 @@ p{
 /** PRINCIPAL **/
 
 .principal{
-    padding-top: 115px;
+    padding-top: 80px;
+}
+
+/** PRINCIPAL ANIMATION **/
+
+#body-program{
+    overflow: hidden;
+}
+
+#principal-animation{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: height 2s, padding 2s;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+#principal-animation img{
+    width: 80%;
+}
+
+#arrowAnimated svg{
+    animation: arrowAnimation 1s linear infinite normal;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    fill: #FFFFFF;
+}
+
+#arrowAnimated{
+    height: 75px;
+}
+
+@keyframes arrowAnimation {
+    0% {margin-top: 0;}
+    50% {margin-top: 25px;}
+    100% {margin-top: 0;}
+}
+
+@keyframes windowAnimation {
+    0% {height: 100vh;}
+    100% {height: 0;}
+}
+
+@media (max-width: 767px) {
+    #principal-animation img{
+        width: 98%;
+    }
+    #arrowAnimated svg{   
+        width: 75px;
+        height: 75px;
+    }
 }
 
 /** VIDEO **/
@@ -256,9 +309,13 @@ p{
     font-weight: 900;
 }
 
-.welcome-msg{
+#welcome-msg{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px 10px;
+    opacity: 0;
+    padding-left: 100px;
+    transition: opacity 2s 1s, padding-left 2s 1s;
 }
 
 .title-perfil{
@@ -319,6 +376,7 @@ p{
     font-style: italic;
     font-weight: 400;
     font-size: 12px;
+    transition: background-color 0.5s;
 }
 
 .terminos{
@@ -338,6 +396,7 @@ p{
 
 .form-bg-color{
     padding: 20px;
+    margin: 20px 10px;
 }
 
 @media (min-width:768px) and (max-width:900px) {
@@ -349,6 +408,51 @@ p{
     .principal .col-4 > div{
         width: 60%;
     }
+}
+
+/** DATA FORM AVAILABLE **/
+
+.dataavailable{
+    background: url('../img/banner-desarrollo.jpg') no-repeat center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.confirmation{
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.confirmation img{
+    width: 25%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    min-width: 250px;
+}
+
+.dataavailable button{
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.confirmation h1{
+    padding: 20px;
+}
+
+.confirmation h4{
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
 
 /** ARROWS **/
@@ -616,7 +720,7 @@ p{
     background-image: url('../img/banner-desarrollo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px 0;
+    background-position: center;
 }
 
 .banner-telecomunicaciones{
@@ -765,6 +869,12 @@ p{
     font-weight: 500;
 }
 
+.benefits-icon svg{
+    width: 75px;
+    height: 75px;
+    fill: #FFFFFF;
+}
+
 /** BENEFITS CAROUSEL **/
 
 .carousel{
@@ -857,6 +967,63 @@ p{
     .plan-estudios{
         text-align: center;
     }
+}
+
+/** FOOTER **/
+
+.footer{
+    background: url('../img/footer-bg.png') bottom,#ECF0F8;
+    background-size: cover;
+    padding: 50px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #1D098F;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.footer svg{
+    vertical-align: baseline;
+}
+
+.footer h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.footer h4{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.footer a > div{
+    display: inline-block;
+    margin: 10px 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.footer .col-6:last-child{
+    text-align: right;
+}
+
+.derechos{
+    background-color: #2C6CE2;
+    color: #FFFFFF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /** NUESTROS PROGRAMAS 

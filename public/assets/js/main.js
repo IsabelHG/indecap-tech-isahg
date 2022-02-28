@@ -1,42 +1,59 @@
+let upArrow = document.getElementById("arrow-up");
+let downArrow = document.getElementById("arrow");
+
+let playButton = document.getElementById("button-play");
+let myVideo = document.getElementById("video1"); 
+let playIcon = document.getElementById("icon-play");
+
+let socialLeft = document.getElementById("social-left");
+
 window.addEventListener('scroll', function(){
 
   if (window.scrollY > 100) {
-    document.getElementById("arrow-up").style.visibility = "visible";
+    upArrow.style.visibility = "visible";
   } else {
-    document.getElementById("arrow-up").style.visibility = "hidden";
+    upArrow.style.visibility = "hidden";
   }
 
 })
 
-document.getElementById("arrow-up").onclick = function() {
+upArrow.onclick = function() {
 
   window.scroll(0,0);
-  document.getElementById("arrow-up").style.visibility = "hidden";
+  upArrow.style.visibility = "hidden";
 
 }
-
-let myVideo = document.getElementById("video1"); 
 
 function playPause() { 
   if (myVideo.paused) 
     myVideo.play();
 } 
 
-document.getElementById("button-play").onclick = function() {
+playButton.onclick = function() {
   
-  document.getElementById("icon-play").style.display = "none";
+  playIcon.style.display = "none";
 
 }
 
 myVideo.onclick = function() {
 
-  document.getElementById("icon-play").style.display = "block";
+  playIcon.style.display = "block";
   myVideo.pause();
 
 }
 
-document.getElementById("arrow").onclick = function() {
+downArrow.onclick = function() {
 
   window.scroll(0,750);
 
 }
+
+window.addEventListener('scroll', function(){
+
+  if (window.scrollY > 1450) {
+    socialLeft.style.visibility = "hidden";
+  } else {
+    socialLeft.style.visibility = "visible";
+  }
+
+})
