@@ -23,7 +23,19 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-<body>
+<body id="body-program">
+
+<!-- HEADER ANIMATION -->
+<div class="banner-home" id="principal-animation">
+    <div>
+        <img src="assets/img/logo-blanco-horizontal.png" alt="">
+        <div id="arrowAnimated">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </div>
+    </div>
+</div>
     
 <!-- HEADER --> 
 <div class="header">
@@ -86,7 +98,7 @@
         <div class="col-4 form-bg-color">
             
             <div>
-                <p class="title">Transforma<br><span>tu futuro</span></p>
+                <p id="animated-msg" class="title">Transforma<br><span>tu futuro</span></p>
                 <p class="subtitle">¡Comienza ahora!</p>
                 <p class="text">Si quieres conocer nuestros programas, diligencia el formulario de inscripción con tus datos personales y medios de contacto.</p>
             </div>

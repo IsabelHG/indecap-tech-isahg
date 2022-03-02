@@ -22,20 +22,7 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-<body id="body-program">
-
-<!-- HEADER ANIMATION -->
-<div class="banner-desarrollo" id="principal-animation">
-    <div>
-        <img src="../assets/img/logo-blanco-horizontal.png" alt="">
-        <div id="arrowAnimated">
-            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </div>
-    </div>
-</div>
-
+<body>
 
 <!-- HEADER --> 
 <div class="header">
@@ -45,7 +32,7 @@
 <div class="container-fluid principal">
     <div class="row justify-content-center align-items-center banner-desarrollo">
 
-        <div id="welcome-msg" class="col-6 banner-desarrollo">
+        <div id="animated-msg" class="col-6 welcome-msg banner-desarrollo">
             <p class="title-italic">¡Comienza ahora!<br><span class="title-black">Técnico Laboral en Auxiliar en Desarrollo de Software</span></p>
         </div>
 
@@ -71,9 +58,9 @@
 </div>
 
 <div class="sub-menu">
-    <button onclick="window.scroll(0,650)">¿Qué es el programa?</button>
-    <button onclick="window.scroll(0,1380)">¿Qué necesitas para estudiar?</button>
-    <button onclick="window.scroll(0,1985)">Habilidades y ventajas de estudiar</button>
+    <button onclick="window.scroll(0,750)">¿Qué es el programa?</button>
+    <button onclick="window.scroll(0,1500)">¿Qué necesitas para estudiar?</button>
+    <button onclick="window.scroll(0,2025)">Habilidades y ventajas de estudiar</button>
 </div>
 
 <div class="pad-50">
@@ -117,7 +104,7 @@
                     <path d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"/>
                 </svg>
                 <br><br>
-                <p>Capacitación para el trabajo<br><br><span></span></p>
+                <p>Capacitación para el trabajo<br><br><span>por que estudiar virtualmente puede ser un beneficio</span></p>
             </div>
         </div>
     </div>

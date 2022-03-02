@@ -22,19 +22,7 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-<body id="body-program">
-
-<!-- HEADER ANIMATION -->
-<div class="banner-animacion" id="principal-animation">
-    <div>
-        <img src="../assets/img/logo-blanco-horizontal.png" alt="">
-        <div id="arrowAnimated">
-            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </div>
-    </div>
-</div>
+<body>
 
 <!-- HEADER --> 
 <div class="header">
@@ -44,7 +32,7 @@
 <div class="container-fluid principal">
     <div class="row justify-content-center align-items-center banner-animacion">
 
-        <div id="welcome-msg" class="col-6 banner-animacion">
+        <div id="animated-msg" class="col-6 welcome-msg banner-animacion">
             <p class="title-italic">¡Comienza ahora!<br><span class="title-black">Técnico Laboral en Animación 2D y 3D</span></p>
         </div>
 
@@ -70,9 +58,9 @@
 </div>
 
 <div class="sub-menu">
-    <button onclick="window.scroll(0,650)">¿Qué es el programa?</button>
-    <button onclick="window.scroll(0,1380)">¿Qué necesitas para estudiar?</button>
-    <button onclick="window.scroll(0,1985)">Habilidades y ventajas de estudiar</button>
+    <button onclick="window.scroll(0,750)">¿Qué es el programa?</button>
+    <button onclick="window.scroll(0,1500)">¿Qué necesitas para estudiar?</button>
+    <button onclick="window.scroll(0,2025)">Habilidades y ventajas de estudiar</button>
 </div>
 
 <div class="pad-50">
