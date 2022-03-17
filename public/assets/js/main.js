@@ -10,7 +10,16 @@ let animationWindow = document.getElementById("principal-animation");
 let bodyOverflow = document.getElementById("body-program");
 let msgAnimation = document.getElementById("animated-msg");
 
-let socialLeft = document.getElementById("social-left");
+window.addEventListener('scroll',function(){
+  let titleAnimated = document.getElementById("title-animated");
+  let positionText = titleAnimated.getBoundingClientRect().top;
+  let windowHeight = window.innerHeight/1;
+
+  if(positionText < windowHeight){
+    titleAnimated.style.opacity = '1';
+    titleAnimated.style.height = '108px';
+  }
+})
 
 window.addEventListener('scroll', function(){
 
@@ -55,8 +64,13 @@ downArrow.onclick = function() {
 
 window.addEventListener('scroll', function(){
 
+  let socialLeft = document.getElementById("social-left");
+  let socialFooter = document.getElementById("social-footer");
+  let positionSocialFoot = socialFooter.getBoundingClientRect().top;
+  let windowHeight = window.innerHeight;
+
   if (bodyOverflow.style.overflow == 'visible'){
-    if (window.scrollY > 1450){
+    if (windowHeight > positionSocialFoot){
       socialLeft.style.visibility = "hidden";
     }else{
       socialLeft.style.visibility = "visible";
@@ -80,6 +94,5 @@ animationArrow.onclick = function() {
 window.addEventListener('load', function(){
 
   window.scroll(0,0);
-  socialLeft.style.visibility = "hidden";
 
 })

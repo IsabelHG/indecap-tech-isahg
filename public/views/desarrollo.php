@@ -26,7 +26,7 @@
 
 <!-- HEADER --> 
 <div class="header">
-    <img onclick="location.href='../../public'" src="../assets/img/logo-blanco-horizontal.png" alt="">
+    <img onclick="location.href='https://indecaptech.com/'" src="../assets/img/logo-blanco-horizontal.png" alt="">
 </div>
 
 <div class="container-fluid principal">
@@ -64,7 +64,7 @@
 </div>
 
 <div class="pad-50">
-    <p class="title-description">¿Que es el programa?</p>
+    <p class="title-description">¿Qué es el programa?</p>
     <p class="text-description">El programa Técnico Laboral en Desarrollo de Software tiene como objetivo formar profesionales íntegros, éticos y responsables, que ayuden a resolver diversos problemas mediante el uso de herramientas tecnológicas de desarrollo, para satisfacer las necesidades del sector productivo regional y nacional.</p>
 </div>
 
@@ -254,6 +254,7 @@
                     </svg>
                 </div>
             </a>
+            <a></a>
         </div>
     </div>
 </div>

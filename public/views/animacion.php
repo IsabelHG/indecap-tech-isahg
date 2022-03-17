@@ -26,7 +26,7 @@
 
 <!-- HEADER --> 
 <div class="header">
-    <img onclick="location.href='../../public'" src="../assets/img/logo-blanco-horizontal.png" alt="">
+    <img onclick="location.href='https://indecaptech.com/'" src="../assets/img/logo-blanco-horizontal.png" alt="">
 </div>
 
 <div class="container-fluid principal">
@@ -64,7 +64,7 @@
 </div>
 
 <div class="pad-50">
-    <p class="title-description">¿Que es el programa?</p>
+    <p class="title-description">¿Qué es el programa?</p>
     <p class="text-description">El programa Técnico Laboral en Animación 2D/3D permite formar a profesionales capacitados con competencias de desarrollo de proyectos audiovisuales, que puedan crear historias y narrativas mediante el diseño, stop motion y gráficos que se complementen con sonidos y efectos especiales.</p>
 </div>
 
@@ -88,7 +88,7 @@
                     <path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"/>
                 </svg>
                 <br><br>
-                <p>Modalidad virtual<br><br><span>por que estudiar virtualmente puede ser un beneficio</span></p>
+                <p>Modalidad virtual<br><br><span>Con INDECAP TECH podrás experimentar una forma de a través de E- learning como sistema de aprendizaje con una serie recursos didácticos, tutorías y simulaciones online. Y donde podrás estudiar y capacitarte a tu ritmo.</span></p>
             </div>
             <div class="col-3">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="75" height="75" fill="#FFFFFF">
@@ -96,7 +96,7 @@
                     <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/>
                 </svg>
                 <br><br>
-                <p>Costos y beneficios<br><br><span>por que estudiar virtualmente puede ser un beneficio</span></p>
+                <p>Costos y beneficios<br><br><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</span></p>
             </div>
             <div class="col-3">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="75" height="75" fill="#FFFFFF">
@@ -104,7 +104,7 @@
                     <path d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"/>
                 </svg>
                 <br><br>
-                <p>Capacitación para el trabajo<br><br><span></span></p>
+                <p>Capacitación para el trabajo<br><br><span>Ofrecemos los mejores programas académicos tecnológicos y herramientas que facilitan la vinculación laboral para destacar en un mercado laboral cada vez más exigente.</span></p>
             </div>
         </div>
     </div>
@@ -116,7 +116,7 @@
                     <path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"/>
                 </svg>
                 <br><br>
-                <p>Modalidad virtual<br><br><span>por que estudiar virtualmente puede ser un beneficio</span></p>
+                <p>Modalidad virtual<br><br><span>Con INDECAP TECH podrás experimentar una forma de a través de E- learning como sistema de aprendizaje con una serie recursos didácticos, tutorías y simulaciones online. Y donde podrás estudiar y capacitarte a tu ritmo.</span></p>
             </div>
             <div class="carousel-item">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="75" height="75" fill="#FFFFFF">
@@ -124,7 +124,7 @@
                     <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/>
                 </svg>
                 <br><br>
-                <p>Costos y beneficios<br><br><span>por que estudiar virtualmente puede ser un beneficio</span></p>
+                <p>Costos y beneficios<br><br><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</span></p>
             </div>
             <div class="carousel-item">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="75" height="75" fill="#FFFFFF">
@@ -132,7 +132,7 @@
                     <path d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"/>
                 </svg>
                 <br><br>
-                <p>Capacitación para el trabajo<br><br><span></span></p>
+                <p>Capacitación para el trabajo<br><br><span>Ofrecemos los mejores programas académicos tecnológicos y herramientas que facilitan la vinculación laboral para destacar en un mercado laboral cada vez más exigente.</span></p>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -254,6 +254,7 @@
                     </svg>
                 </div>
             </a>
+            <a></a>
         </div>
     </div>
 </div>

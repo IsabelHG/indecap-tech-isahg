@@ -1,6 +1,6 @@
 <?php
 
-echo '<form action="db/Adddata.php" method="POST">
+echo '<form action="https://indecaptech.com/db/Adddata.php" method="POST">
     <div class="formulario row">
         <div class="col">
             <label class="visually-hidden" for="inputName">Nombre</label>
@@ -50,11 +50,12 @@ echo '<form action="db/Adddata.php" method="POST">
     <div class="form-check terminos">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="conditions" required>
         <label class="form-check-label" for="flexCheckDefault">
-            He leído los <a href="../public/assets/pdf/terminos-condiciones.pdf" target="_blank" rel="noopener noreferrer">términos y condiciones</a>
+            He leído los <a href="../public/views/terminos.php" target="_blank" rel="noopener noreferrer">términos y condiciones</a>
         </label>
     </div>
-    <div class="enviar col-auto">
-            <button type="submit" class="btn">ENVIAR</button>
+    <div class="enviar col-auto bg-button">
+        <div class="button-animation"></div>
+        <button type="submit" class="button-animated btn">ENVIAR</button>
     </div>
 </form>';
 

@@ -67,7 +67,7 @@
             </svg>
         </div>
     </a>
-    <a href="https://bit.ly/ProgramacionDeSoftware" target="_blank" rel="noopener noreferrer">
+    <a href="https://api.whatsapp.com/send?phone=573017787868" target="_blank" rel="noopener noreferrer">
         <div class="whatsapp">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#FFFFFF" viewBox="0 0 448 512">
                 <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
@@ -75,10 +75,11 @@
             </svg>
         </div>
     </a>
+    <a></a>
 </div>
 
 <div class="container-fluid principal">
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center">
 
         <!-- VIDEO -->
         <div class="col-6">
@@ -129,7 +130,9 @@
 <div class="programs">
     <div class="seccion">
         <p class="title2">Nuestros</p>
-        <p class="subtitle2">programas académicos</p>
+        <div class="container-title-animated">
+            <p id="title-animated" class="subtitle2">programas académicos</p>
+        </div>
     </div>
 
     <div class="container-fluid programs-section">
@@ -192,56 +195,53 @@
     </div>
 </div>
 
-<!-- CURSOS -->
-
-<!--<div class="pad-50">
+<!--<div class="courses-section pad-50">
     <div class="seccion">
-        <p class="title2">Nuestros</p>
-        <p class="subtitle2">cursos</p>
+        <p class="title2">Otros</p>
+        <div class="container-title-animated">
+            <p class="subtitle2">programas académicos</p>
+        </div>
     </div>
 
-    <div class="container-fluid courses-section">
-        <div class="row justify-content-evenly row-cols-auto gy-5 gx-0">
-            <div class="col">
-                <img src="assets/img/computadores.png" alt="">
-                <p class="course-blue">Seguridad de la información</p>
+    <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div onclick="location.href='views/courses.php'" class="col-3">
+                <div class="courses">
+                    <p>Cursos en<br>desarrollo web y programación</p>
+                </div>
             </div>
-            <div class="col">
-                <img src="assets/img/computadores1.png" alt="">
-                <p class="course-blue">Introducción a base de datos</p>
+            <div onclick="location.href='views/courses.php'" class="col-3">
+                <div class="courses">
+                    <p>Cursos en<br>telecomunicaciones</p>
+                </div>
             </div>
-            <div class="col">
-                <img src="assets/img/computadores2.png" alt="">
-                <p class="course-blue">Programación orientada a objetos</p>
-            </div>
-            <div class="col">
-                <img src="assets/img/computadores3.png" alt="">
-                <p class="course-blue">Metodologías ágiles a la programación</p>
-            </div>
-            <div class="col">
-                <img src="assets/img/computadores.png" alt="">
-                <p class="course-yellow">Seguridad de la información</p>
-            </div>
-            <div class="col">
-                <img src="assets/img/computadores1.png" alt="">
-                <p class="course-yellow">Introducción a base de datos</p>
-            </div>
-            <div class="col">
-                <img src="assets/img/computadores2.png" alt="">
-                <p class="course-yellow">Programación orientada a objetos</p>
-            </div>
-            <div class="col">
-                <img src="assets/img/computadores3.png" alt="">
-                <p class="course-yellow">Metodologías ágiles a la programación</p>
+            <div onclick="location.href='views/courses.php'" class="col-3">
+                <div class="courses">
+                    <p>Diplomados</p>
+                </div>
             </div>
         </div>
     </div>
-</div>-->
+</div> -->
 
-<div class="">
-    <div class="banner-aula">
-        <img src="assets/img/logo-blanco-aula.png" alt="">
-        <button onclick="parent.open('https://www.escuela.com.co/indecap/')">Ingresar</button>
+<div class="container-fluid">
+    <div class="row banner-aula justify-content-center">
+        <div class="col-3">
+            <img src="assets/img/banner-aula.png" alt="">
+        </div>
+        <div class="col-9">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-8">
+                    <img src="assets/img/logo-blanco-aula.png" alt="">
+                </div>
+                <div class="col-4">
+                    <div class="bg-button">
+                        <div class="button-animation"></div>
+                        <button class="button-animated" onclick="parent.open('https://www.escuela.com.co/indecap/')">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -296,7 +296,7 @@
                     </svg>
                 </div>
             </a>
-            <a href="https://bit.ly/ProgramacionDeSoftware" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=573017787868" target="_blank" rel="noopener noreferrer">
                 <div class="whatsapp">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#FFFFFF" viewBox="0 0 448 512">
                         <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
@@ -304,6 +304,7 @@
                     </svg>
                 </div>
             </a>
+            <a></a>
         </div>
     </div>
 </div>
@@ -312,71 +313,6 @@
     <p>INDECAP | Instituto de Ciencias Aplicadas</p>
 </div>
 
-
-
-
-
-
-
-
-<!--<div class="container-fluid" id="animacion">
-    <div class="programas row justify-content-evenly">
-        <div class="col-4">
-            <div class="contenedor">
-                <div>
-                    <img src="assets/img/desarrollo.png" alt="">
-                    <p>Técnico Laboral en</p>
-                    <p class="name-programa">Desarrollo de Software</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="contenedor">
-                <div>
-                    <img src="assets/img/telecomunicaciones.png" alt="">
-                    <p>Técnico Laboral en</p>
-                    <p class="name-programa">Telecomunicaciones</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="contenedor">
-                <div>
-                    <img src="assets/img/ciberseguridad.png" alt="">
-                    <p>Técnico Laboral en</p>
-                    <p class="name-programa">Ciberseguridad</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="contenedor">
-                <div>
-                    <img src="assets/img/marketing.png" alt="">
-                    <p>Técnico Laboral en</p>
-                    <p class="name-programa">Marketing Digital</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="contenedor">
-                <div>
-                    <img src="assets/img/animacion.png" alt="">
-                    <p>Técnico Laboral en</p>
-                    <p class="name-programa">Animación 2D/3D</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="contenedor no">
-                <div>
-                    <img src="assets/img/eminema.jpg" alt="">
-                    <p>Técnico Laboral en</p>
-                    <p class="name-programa"></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>-->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

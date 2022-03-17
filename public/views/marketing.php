@@ -26,7 +26,7 @@
 
 <!-- HEADER --> 
 <div class="header">
-    <img onclick="location.href='../../public'" src="../assets/img/logo-blanco-horizontal.png" alt="">
+    <img onclick="location.href='https://indecaptech.com/'" src="../assets/img/logo-blanco-horizontal.png" alt="">
 </div>
 
 <div class="container-fluid principal">
@@ -64,7 +64,7 @@
 </div>
 
 <div class="pad-50">
-    <p class="title-description">¿Que es el programa?</p>
+    <p class="title-description">¿Qué es el programa?</p>
     <p class="text-description">En este programa formamos técnicos laborales en Marketing Digital, con capacidades para acompañar la implementación de estrategias de posicionamiento, promoción de marca, análisis de datos, con capacidad de liderazgo y creatividad para apoyar la generación de campañas de mercadeo por medio de medios digitales.</p>
 </div>
 
@@ -254,6 +254,7 @@
                     </svg>
                 </div>
             </a>
+            <a></a>
         </div>
     </div>
 </div>

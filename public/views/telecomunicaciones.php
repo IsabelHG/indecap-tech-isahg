@@ -26,7 +26,7 @@
 
 <!-- HEADER --> 
 <div class="header">
-    <img onclick="location.href='../../public'" src="../assets/img/logo-blanco-horizontal.png" alt="">
+    <img onclick="location.href='https://indecaptech.com/'" src="../assets/img/logo-blanco-horizontal.png" alt="">
 </div>
 
 <div class="container-fluid principal">
@@ -64,7 +64,7 @@
 </div>
 
 <div class="pad-50">
-    <p class="title-description">¿Que es el programa?</p>
+    <p class="title-description">¿Qué es el programa?</p>
     <p class="text-description">El programa Técnico Laboral en Telecomunicaciones Móviles busca formar de manera integral al estudiante aspirante a técnico, permitiéndole desarrollar competencias en telecomunicaciones, con el fin de apoyar la solución de problemas operacionales que requieren de conocimientos en electrónica y telecomunicaciones, con un alto sentido de responsabilidad social y ambiental, para responder a las necesidades del sector productivo del país.</p>
 </div>
 
@@ -254,6 +254,7 @@
                     </svg>
                 </div>
             </a>
+            <a></a>
         </div>
     </div>
 </div>

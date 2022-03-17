@@ -26,7 +26,7 @@
 
 <!-- HEADER --> 
 <div class="header">
-    <img onclick="location.href='../../public'" src="../assets/img/logo-blanco-horizontal.png" alt="">
+    <img onclick="location.href='https://indecaptech.com/'" src="../assets/img/logo-blanco-horizontal.png" alt="">
 </div>
 
 <div class="container-fluid principal">
@@ -64,7 +64,7 @@
 </div>
 
 <div class="pad-50">
-    <p class="title-description">¿Que es el programa?</p>
+    <p class="title-description">¿Qué es el programa?</p>
     <p class="text-description">Este programa forma técnicos con competencias y conocimientos para llevar a cabo labores especializadas de ciberseguridad con un alto valor ético, capaces de monitorear, mantener, apoyar, documentar y administrar sistemas de soluciones enfocadas a la seguridad informática para responder a las necesidades del sector productivo en el país.</p>
 </div>
 
@@ -254,6 +254,7 @@
                     </svg>
                 </div>
             </a>
+            <a></a>
         </div>
     </div>
 </div>
